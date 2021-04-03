@@ -1,4 +1,4 @@
-eFROM runmymind/docker-android-sdk:alpine-standalone
+FROM runmymind/docker-android-sdk:alpine-standalone
 
 RUN apk update && apk upgrade && \
     apk add gradle npm && \
